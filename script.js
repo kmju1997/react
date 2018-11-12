@@ -36,8 +36,8 @@ function cal() {
 let calbtn = document.getElementsByClassName("cal-btn");
 let erasebtn = document.getElementsByClassName("cal-erase");
 let equalbtn = document.getElementById("equal");
-
 for (let i = 0; i < calbtn.length; i++) {
+
     calbtn[i].addEventListener('click', input);
 };
 
